@@ -1,0 +1,12 @@
+# Introduction #
+fsfeed is a simple PHP app that turns directory paths into Atom feeds. It's useful to run it
+on an insecure file server to notify users of file or folder updates. Users can also download
+files from their newsreader, provided that the web server has read access to the file.
+
+By using a combination of the path and modification time as the URN of an entry, it can mark
+an updated file as new in the newsreader.
+
+fsfeed is not and probably never will be, recursive.
+
+# Usage #
+Just copy the fsfeed folder to where your web server can run it from and rename fsfeed.db.default to fsfeed.db.
